@@ -14,3 +14,6 @@ be eager to prepare meeting material
 
 解决办法：
 git config --global --unset http.proxy
+git config --global --unset http.https://github.com.proxy
+
+这不对啊，这个命令是取消了代理
